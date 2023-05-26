@@ -3,7 +3,7 @@ public class AccountHandler {
     
     public static void beforeInsert(List<Account> newList , Map<ID,Account> newMap)
     {
-            system.debug('Create New branch from git 2nd commit');
+            system.debug('Testing feature branch'); 
 
      List<string> accNames = new List<string>();
         for(Account acc : newList){
